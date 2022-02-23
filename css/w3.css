@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Megrim&display=swap');
-.table{
+.table,
+.table2,
+.table3{
     padding: 20vh;
     width: 30vw;
     text-align: center;
