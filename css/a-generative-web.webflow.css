@@ -75,6 +75,7 @@ a {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+  z-index: 3;
 }
 
 a:hover {
@@ -1235,9 +1236,9 @@ figcaption {
 
 .arrow {
   position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  width: 15vw;
+  left: 10%;
+  bottom: 67%;
   display: block;
   margin-right: auto;
   margin-bottom: 40px;
@@ -1893,19 +1894,16 @@ figcaption {
   }
 }
 
-#w1 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column-align: end;
-  justify-self: end;
-  -ms-grid-row-align: end;
-  align-self: end;
+.w1 {
+  position: absolute;
+  overflow: hidden;
+  padding-left: 19.5vw;
+  padding-top: 20.5vh;
+  font-size: 38px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  z-index: 1;
 }
 
 #w2 {
@@ -1930,6 +1928,11 @@ figcaption {
   align-self: end;
   -ms-grid-column-align: end;
   justify-self: end;
+
+  font-size: 38px;
+  color: #000;
+  font-weight: bold;
+  padding-top: 2vh;
 }
 
 #w4 {
