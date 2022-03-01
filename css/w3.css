@@ -9,3 +9,27 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
 }
+
+.img1{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 16%;
+}
+
+.img2{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 100%;
+}
+
+.img3{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+    left: 50%;
+    top: 175%;
+}
