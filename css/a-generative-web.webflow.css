@@ -1234,7 +1234,7 @@ figcaption {
   align-items: center;
 }
 
-.arrow {
+/* .arrow {
   position: absolute;
   width: 15vw;
   left: 10%;
@@ -1243,7 +1243,7 @@ figcaption {
   margin-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
-}
+} */
 
 .number {
   position: relative;
@@ -1894,18 +1894,6 @@ figcaption {
   }
 }
 
-.w1 {
-  position: absolute;
-  overflow: hidden;
-  padding-left: 19.5vw;
-  padding-top: 20.5vh;
-  font-size: 38px;
-  font-weight: bold;
-  color: #000;
-  text-decoration: none;
-  z-index: 1;
-}
-
 #w2 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -1921,7 +1909,9 @@ figcaption {
   align-self: end;
 }
 
-#w3 {
+#w3,
+#w4,
+#w1 {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
@@ -1933,21 +1923,6 @@ figcaption {
   color: #000;
   font-weight: bold;
   padding-top: 2vh;
-}
-
-#w4 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-row-align: end;
-  align-self: end;
-  -ms-grid-column-align: end;
-  justify-self: end;
 }
 
 #w5 {

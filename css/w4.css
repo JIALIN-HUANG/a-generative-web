@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Work+Sans:wght@200&display=swap');
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+}
+
+#clock{
+    padding-top: 40vh;
+    padding-left: 5vw;
+}
+
+#background{
+    position: absolute;
+    top: 6%;
+    left: -3vw;
+}
