@@ -15,7 +15,7 @@
     width: 25vw;
     height: auto;
     left: 50%;
-    top: 16%;
+    top: 30vh;
 }
 
 .img2{
@@ -23,7 +23,7 @@
     width: 25vw;
     height: auto;
     left: 50%;
-    top: 100%;
+    top: 110vh;
 }
 
 .img3{
@@ -31,5 +31,15 @@
     width: 25vw;
     height: auto;
     left: 50%;
-    top: 175%;
+    top: 190vh;
+}
+
+.img4,
+.img5{
+    position: absolute;
+    width: 25vw;
+    height: auto;
+
+    padding-left: 5vw;
+    padding-bottom: 5vh;
 }
