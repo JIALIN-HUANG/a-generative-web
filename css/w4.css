@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Work+Sans:wght@200&display=swap');
 
 body{
-    background-color: black;
-    color: aliceblue;
+    color: black;
     font-family: 'Orbitron', sans-serif;
     font-size: 5rem;
 }
@@ -16,4 +15,14 @@ body{
     position: absolute;
     top: 6%;
     left: -3vw;
+}
+
+.quote2{
+    position: fixed;
+    width: 40vw;
+    top: 35vh;
+    margin-left: 50%;
+
+    font-size: 1.5rem;
+    color: black;
 }
